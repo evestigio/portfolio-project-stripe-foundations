@@ -4,9 +4,35 @@ body {
 }
 
 a {
-color: yellow;
+color: #f5f8fe;
 }
 
 a:hover {
     color: #fff;
+}
+
+#port-nav ul {
+    list-style: none;
+}
+/* type cmd + ? to add comments */
+
+#port-nav>ul>li {
+    display: inline;
+}
+
+#port-nav>ul>li>a {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: #6772e5;
+    text-decoration: none;
+    
+}
+
+#port-nav>ul>li>:hover {
+    color: #fff;
+    background: #6772e5;
+    color: #333;
+    border-radius: 0px;
+    transition: all .2 linear;    
 }
